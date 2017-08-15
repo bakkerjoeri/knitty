@@ -1,0 +1,7 @@
+[production]
+last 2 version
+not ie > 0
+
+[development]
+last 1 version
+not ie > 0
