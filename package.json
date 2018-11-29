@@ -1,0 +1,22 @@
+{
+  "name": "spinneret",
+  "version": "0.0.1",
+  "description": "Setup a web project in CLI.",
+  "author": "Joeri Bakker <bakkerjoeri@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "spinneret": "./bin/spinneret"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeribakker/web-setup.git"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "execa": "^1.0.0",
+    "inquirer": "^6.2.0",
+    "inquirer-path": "^1.0.0-beta5",
+    "simple-git": "^1.107.0"
+  }
+}
