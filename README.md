@@ -15,6 +15,15 @@ yarn global add knitty
 ```
 
 ## Usage
-```
-knitty create
-```
+
+### `knitty create`
+
+Set up a web project. Knitty can help you do the following:
+
+* Set up a `git` repository and add a remote.
+* Create an `.editorconfig` file with content imported from a local or hosted source.
+
+
+### `knitty config`
+
+Manage saved presets and reset knitty's settings.
