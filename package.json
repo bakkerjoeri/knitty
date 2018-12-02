@@ -1,6 +1,6 @@
 {
   "name": "knitty",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Setup a web project in CLI.",
   "author": "Joeri Bakker <bakkerjoeri@gmail.com>",
   "license": "MIT",
