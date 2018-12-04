@@ -1,6 +1,6 @@
 {
   "name": "knitty",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Setup a web project in CLI.",
   "author": "Joeri Bakker <bakkerjoeri@gmail.com>",
   "license": "MIT",
@@ -9,8 +9,8 @@
     "knitty": "./bin/knitty"
   },
   "files": [
-      "bin",
-      "lib"
+    "bin",
+    "lib"
   ],
   "repository": {
     "type": "git",
