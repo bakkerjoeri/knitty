@@ -20,9 +20,9 @@ yarn global add knitty
 
 Set up a web project. Knitty can help you do the following:
 
+* Create basic project files.
 * Set up a `git` repository and add a remote.
 * Create an `.editorconfig` file with content imported from a local or hosted source.
-
 
 ### `knitty config`
 
