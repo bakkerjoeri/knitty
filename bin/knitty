@@ -11,6 +11,10 @@ program
 program
     .command('config')
     .description('configure your knitty settings')
-    .action(configure)
+    .action(configure);
 
 program.parse(process.argv);
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp();
+}
