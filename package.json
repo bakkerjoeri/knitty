@@ -8,6 +8,10 @@
   "bin": {
     "knitty": "./bin/knitty"
   },
+  "files": [
+      "bin",
+      "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/joeribakker/web-setup.git"
