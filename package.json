@@ -8,6 +8,9 @@
   "bin": {
     "knitty": "./bin/knitty"
   },
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
   "files": [
     "bin",
     "lib"
