@@ -1,17 +1,11 @@
 #!/usr/bin/env node
 const program = require('commander');
 const create = require('./../lib/create');
-const configure = require('./../lib/configure');
 
 program
 	.command('create')
 	.description('create a new web project')
 	.action(create);
-
-program
-	.command('config')
-	.description('configure your knitty settings')
-	.action(configure);
 
 program.parse(process.argv);
 
