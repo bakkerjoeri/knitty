@@ -17,3 +17,4 @@ Knitty will help you do the following:
 * Install and configure tools you want to use:
     * TypeScript
 	* Testing via Jest
+* Create a `package.json` tailored to your setup.
