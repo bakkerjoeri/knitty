@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-const program = require('commander');
-const create = require('./../lib/create');
+import { Command } from 'commander/esm.mjs';
+import create from './../lib/create.mjs';
 
+const program = new Command();
 program
 	.command('create')
 	.description('create a new web project')
